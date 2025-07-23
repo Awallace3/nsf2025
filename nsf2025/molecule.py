@@ -7,6 +7,10 @@ from .measure import calculate_distance
 
 def build_bond_list(coordinates, max_bond=1.5, min_bond=0):
     # Find the bonds in a molecule (set of coordinates) based on distance criteria.
+    if min_bond < 0:
+        raise ValueError("Minimum bond length must be non-negative")
+    if max_bond <= min_bond:
+        raise ValueError("Maximum bond length must be greater than minimum bond length")
     bonds = {}
     num_atoms = len(coordinates)
 

@@ -1,0 +1,6 @@
+﻿nsf2025.canvas
+==============
+
+.. currentmodule:: nsf2025
+
+.. autofunction:: canvas

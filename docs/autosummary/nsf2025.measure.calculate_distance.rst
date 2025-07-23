@@ -1,0 +1,6 @@
+﻿nsf2025.measure.calculate\_distance
+===================================
+
+.. currentmodule:: nsf2025.measure
+
+.. autofunction:: calculate_distance

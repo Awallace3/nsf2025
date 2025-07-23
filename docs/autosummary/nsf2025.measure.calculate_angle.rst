@@ -1,0 +1,6 @@
+﻿nsf2025.measure.calculate\_angle
+================================
+
+.. currentmodule:: nsf2025.measure
+
+.. autofunction:: calculate_angle
