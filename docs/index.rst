@@ -65,7 +65,6 @@ Welcome to nsf2025's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :hidden:
    :titlesonly:
 
    getting_started

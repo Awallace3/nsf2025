@@ -12,9 +12,8 @@ dependencies:
   - pydata-sphinx-theme
   - sphinx-design
   - sphinx-copybutton
-
-
-
+  - numpy
+  - matplotlib
 
     # Pip-only installs
   - pip:
